@@ -4,16 +4,19 @@
    минут передает сведения о пульсе и давлении подопечного. Напишите SQL таблицы для хранения этих данных, учитывая то,
    что один из самых частых запросов к ней будет: выбор всех подопечных у которых после обеда были превышены нормы
    пульса и давления.
+   
+   [Решение](https://github.com/andreskrip/test-boxberry/blob/main/src/Tasks/CheckIndicators/CheckIndicators.php)
 
-         [Решение](https://github.com/andreskrip/test-boxberry/blob/main/src/Tasks/CheckIndicators/CheckIndicators.php)
 
 2. У вас есть база размером свыше 100гб и более 8млн строк. Вам необходимо добавить 3 новых поля, переименовать одно
    поле, а также добавить два индекса. Опишите, как вы это будете делать?
 
+
 3. Напишите PHP скрипт в который через GET передаются две даты, а скрипт должен рассчитать сколько вторников было между
    ними.
-
-         [Решение](https://github.com/andreskrip/test-boxberry/blob/main/src/Tasks/CountWeekdays/%D0%A1ountWeekdays.php)
+   
+   [Решение](https://github.com/andreskrip/test-boxberry/blob/main/src/Tasks/CountWeekdays/%D0%A1ountWeekdays.php)
+   
 
 4. Есть таблица, которая хранит сведения о товарах вида:
 
@@ -38,4 +41,4 @@
    5%, товарам с color=green, увеличить цену на 10% и т.д. Напишите PHP + SQL скрипт как это сделать максимально
    эффективно с точки зрения производительности.
 
-         [Решение](https://github.com/andreskrip/test-boxberry/blob/main/src/Tasks/UpdatePrice/UpdatePrice.php)
+   [Решение](https://github.com/andreskrip/test-boxberry/blob/main/src/Tasks/UpdatePrice/UpdatePrice.php)
