@@ -1,6 +1,6 @@
 <?php
 
-require 'Services\DB.php';
+require 'src\Services\DB.php';
 
 use Services\DB;
 
